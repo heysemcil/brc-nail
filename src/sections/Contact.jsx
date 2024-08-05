@@ -18,12 +18,19 @@ const Contact = () => {
       id="contact"
       className="w-full h-fit grid grid-cols-1 justify-center items-start lg:grid-cols-2"
     >
-      <div
-        data-aos="zoom-in"
-        id="img-box"
-        className="w-full bg-center bg-cover h-[700px]"
-        style={{ backgroundImage: `url(${contactimg})` }}
-      ></div>
+      <div className="w-ful h-full">
+        <iframe
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          scrolling="no"
+          marginHeight="0"
+          marginWidth="0"
+          src="https://maps.google.com/maps?width=100%25&amp;height=100%&amp;hl=en&amp;q=330%20Riverdale%20yonkers+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        >
+          <a href="https://www.gps.ie/">gps devices</a>
+        </iframe>
+      </div>
       <div
         id="form-box"
         className="bg-gray-900 p-16 flex flex-col justify-center items-center gap-12 w-full h-[700px]"
@@ -68,7 +75,7 @@ const Contact = () => {
           <input
             type="submit"
             value="SUBMIT"
-            className="bg-themeyellow hover:bg-[#aa44c1] cursor-pointer w-full font-semibold text-black text-lg p-3"
+            className="bg-themeyellow  cursor-pointer w-full font-semibold text-black text-lg p-3"
           />
         </div>
       </div>

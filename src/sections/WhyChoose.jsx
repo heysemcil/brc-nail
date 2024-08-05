@@ -29,18 +29,19 @@ const WhyChoose = () => {
         </h1>
         <div className="flex flex-col justify-center items-center">
           <p className="text-xl text-black underline">MONDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
+          <p className="mb-4"> 9AM-5PM</p>
           <p className="text-xl text-black underline">TUESDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
+          <p className="mb-4"> 9AM-5PM</p>
           <p className="text-xl text-black underline">WEDNESDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
+          <p className="mb-4"> 9AM-5PM</p>
           <p className="text-xl text-black underline">THURSDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
+          <p className="mb-4"> 9AM-5PM</p>
           <p className="text-xl text-black underline">FRIDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
+          <p className="mb-4"> 9AM-5PM</p>
           <p className="text-xl text-black underline">SATURDAY</p>
-          <p className="mb-4"> 10AM-8PM</p>
-          <p className="text-xl text-black line-through">SUNDAY</p>
+          <p className="mb-4"> 9AM-5PM</p>
+          <p className="text-xl text-black underline">SUNDAY</p>
+          <p className="mb-4"> 9AM-5PM</p>
         </div>
         <button className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white">
           BOOK ONLINE
@@ -56,8 +57,7 @@ const WhyChoose = () => {
           Why Choose Us
         </h1>
         <p className="text-2xl font-semibold text-white text-center md:text-start">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
-          molestias?
+          WE OFFER YOU
         </p>
         <div
           id="icon-list"
@@ -66,31 +66,37 @@ const WhyChoose = () => {
           <div id="icon-box" className="flex justify-center items-center gap-3">
             <FaAngleDoubleRight className="text-white size-6" />
             <h1 className="text-xl text-white font-semibold">
-              Always welcoming enviornment
+              Clean, safe and long lasting services.
             </h1>
           </div>
           <div id="icon-box" className="flex justify-center items-center gap-3">
             <FaAngleDoubleRight className="text-white size-6" />
             <h1 className="text-xl text-white font-semibold">
-              Always welcoming enviornment
+              Convenient online booking system.
             </h1>
           </div>
           <div id="icon-box" className="flex justify-center items-center gap-3">
             <FaAngleDoubleRight className="text-white size-6" />
             <h1 className="text-xl text-white font-semibold">
-              Always welcoming enviornment
+              Available 24/7.
             </h1>
           </div>
           <div id="icon-box" className="flex justify-center items-center gap-3">
             <FaAngleDoubleRight className="text-white size-6" />
             <h1 className="text-xl text-white font-semibold">
-              Always welcoming enviornment
+              Two-step tool sterilization.
             </h1>
           </div>
           <div id="icon-box" className="flex justify-center items-center gap-3">
             <FaAngleDoubleRight className="text-white size-6" />
             <h1 className="text-xl text-white font-semibold">
-              Always welcoming enviornment
+              Disposable materials per customer.
+            </h1>
+          </div>
+          <div id="icon-box" className="flex justify-center items-center gap-3">
+            <FaAngleDoubleRight className="text-white size-6" />
+            <h1 className="text-xl text-white font-semibold">
+              Discover the art of European & Russian Manicure
             </h1>
           </div>
           <button className="px-10 mt-7 py-4 items-center bg-white text-black text-md font-semibold rounded-xl hover:bg-themeyellow  hover:text-black cursor-pointer">

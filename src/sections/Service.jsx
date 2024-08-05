@@ -26,11 +26,11 @@ const Service = () => {
           data-aos="zoom-in"
           className="text-6xl text-white font-bold text-center"
         >
-          Barbershop Service
+          Our Service
         </h1>
         <p data-aos="zoom-in" className="text-xl text-slate-200 text-center">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          inventore!
+          “Your nails are a way to speak your style without saying a word.” —
+          Tammy Taylor
         </p>
       </div>
       <div className="w-[90%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-6">
@@ -43,21 +43,53 @@ const Service = () => {
           />
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-8">
-          <div data-aos="zoom-out" data-aos-delay="200" className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
-            <img src={service1} alt="service1" className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="200"
+            className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
+          >
+            <img
+              src={service1}
+              alt="service1"
+              className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
+            />
+            <h1 className="text-black text-[25px] text-center font-bold">Signature Manicure</h1>
           </div>
-          <div data-aos="zoom-out" data-aos-delay="200" className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
-            <img src={service2} alt="service1" className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="200"
+            className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
+          >
+            <img
+              src={service2}
+              alt="service1"
+              className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
+            />
+            <h1 className="text-black text-[25px] text-center font-bold">Hard Gel</h1>
           </div>
-          <div data-aos="zoom-out" data-aos-delay="200" className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
-            <img src={service3} alt="service1" className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="200"
+            className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
+          >
+            <img
+              src={service3}
+              alt="service1"
+              className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
+            />
+            <h1 className="text-black text-[25px] text-center font-bold">Extentions & Fill in</h1>
           </div>
-          <div data-aos="zoom-out" data-aos-delay="200" className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl">
-            <img src={service4} alt="service1" className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer" />
-            <h1 className="text-black text-[25px] font-bold">Hair Care</h1>
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="200"
+            className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
+          >
+            <img
+              src={service4}
+              alt="service1"
+              className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
+            />
+            <h1 className="text-black text-[25px] text-center font-bold">Nail Art</h1>
           </div>
         </div>
       </div>

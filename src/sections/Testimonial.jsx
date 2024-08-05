@@ -6,21 +6,22 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+
 const clients = [
   {
     image: client1,
-    title: "BURCU TESLIMOLAN",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, accusamus.",
+    title: "Sara Laviolette ",
+    para: "I love my nails, they are so well done, the shape and color are perfect. Second time at this salon and I’m so happy about the girls, Burcu and the beautiful space. I’ll come back & I definitely recommend",
   },
   {
     image: client2,
-    title: "BURCU TESLIMOLAN",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, accusamus.",
+    title: "Morgan Berson",
+    para: "Burch was absolutely phenomenal!! What a great vibe and atmosphere! The best experience ever!! The best nails and nail artist I have ever had!!",
   },
   {
     image: client3,
-    title: "BURCU TESLIMOLAN",
-    para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, accusamus.",
+    title: "Lisa Anderson",
+    para: "The place was beautiful and everyone there was so nice! Burcu who did my nails did an AMAZING job!! I love it so much!",
   },
 ];
 
@@ -36,7 +37,7 @@ const Testimonial = () => {
   return (
     <section
       id="testimonial"
-      className="w-full md:px-20 md:h-[85vh] h-fit px-10 py-20 flex flex-col justify-end  items-center gap-6 bg-themeyellow "
+      className="w-full md:px-20 md:h-[140vh] h-fit px-10 py-20 flex flex-col justify-end  items-center gap-6 bg-themeyellow "
     >
       <h1
         data-aos="zoom-in"
@@ -48,9 +49,8 @@ const Testimonial = () => {
         data-aos="zoom-in"
         className="text-xl text-white font-semibold text-center"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-        dignissimos. Aliquid iusto optio natus aspernatur tempore fuga tempora
-        soluta? Similique!
+        We are proud to share the experiences of our valued clients. Here’s what
+        they have to say about working with us.
       </p>
       <div
         id="clients"
