@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
+import axios from "axios";
 import "aos/dist/aos.css";
 
 const Pricing = () => {
+  const [pricing, setPricing] = useState([]);
+
   useEffect(() => {
     AOS.init({
       offset: 100,
@@ -10,6 +13,16 @@ const Pricing = () => {
       easing: "ease-in-sine",
       delay: 100,
     });
+    const fetchPrice = async () => {
+      try {
+        const response = await axios.get("./data.json");
+        console.log(response);
+        setPricing(response.data.prices);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchPrice();
   }, []);
   return (
     <section
@@ -23,62 +36,18 @@ const Pricing = () => {
         Price
       </h1>
       <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-center gap-20 ">
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Signature Manicure</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$99</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Hard Gel Manicure</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$989</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Regular  & No Gel Manicure</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$99</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Extentions</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$180</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Gel Remove</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$99</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Nail Art</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$99</h1>
-        </div>
-        <div
-          data-aos="zoom-in"
-          data-aos-delay="200"
-          className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
-        >
-          <h1 className="text-3xl text-gray-900 font-bold">Smart Pedicure</h1>
-          <h1 className="text-themeyellow text-4xl font-bold">$919</h1>
-        </div>
+        {pricing.map((item, index) => (
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
+          >
+            <h1 className="text-3xl text-gray-900 font-bold">{item.title}</h1>
+            <h1 className="text-themeyellow text-4xl font-bold">
+              ${item.price}
+            </h1>
+          </div>
+        ))}
       </div>
     </section>
   );

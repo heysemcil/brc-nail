@@ -1,0 +1,83 @@
+{
+ "services": [
+    {
+      "title": "Russian Style Manicures",
+      "subtitle":"75 $ ・ 1 hr 30 min+",
+      "icon": "/images/womenhair.png",
+      "description": "Description Missing** Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate."
+    },
+    {
+      "title": "Signature Gel Manicure",
+      "icon": "/images/womenhair.png",
+      "subtitle":"75 $ ・ 1 hr 30 min+",
+      "description": "Hardware gel manicure in our signature Eastern European (Russian) technique that can protect your nail bed to allow your natural nail to grow underneath it. Perfect for short to medium length nails. Lasts around 3-4 weeks."
+    },
+    {
+      "title": "Hard Gel & Manicure",
+      "subtitle":"100 $ ・ 1 hr 30 min+",
+      "icon": "/images/womenhair.png",
+      "description": "Have brittle nails or constantly work with your hands but want to keep your natural nails? This option is for you! Hard Gel Overlay goes on top of your natural nails, preserving the length and protecting your nail bed. Perfect for people who use their hands a lot, wear gloves at work or type a lot. Recommended for medium to long nails."
+    },
+    {
+      "title": "No Gel & Regular Manicure",
+      "subtitle":"50 $ ・ 1 hr+",
+      "icon": "/images/womenhair.png",
+      "description": "The perfect option for those who like their nails 'naked'. Features our signature hardware manicure to keep the skin around your nails clean and healthy. We recommend repeating this service every 3 weeks."
+    },
+    {
+      "title": "Gel Extantions & Fiil in",
+      "subtitle":"120 $ ・ 2 hr 30 min+",
+      "icon": "/images/womenhair.png",
+      "description": "The longest-wear option we have. We extend your nails to achieve the perfect length using the  European Russian Technique."
+    },
+    {
+      "title": "Gel Remove",
+      "subtitle":"15 $ ・ 15 min+",
+      "icon": "/images/womenhair.png",
+      "description": "Description Missing** Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate."
+    },
+    {
+      "title": "Nail Art",
+      "subtitle":"75 $ ・ 1 hr 30 min+",
+      "icon": "/images/womenhair.png",
+      "description": "Description Missing** Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate."
+    },
+    {
+      "title": "Smart Pedicure",
+      "subtitle":"75 $ ・ 1 hr 30 min+",
+      "icon": "/images/womenhair.png",
+      "description": "Description Missing** Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, cupiditate."
+    }
+  ],
+
+  "prices": [
+    {
+      "title": "Signature Manicure",
+      "price": 250
+    },
+    {
+      "title": "Hard Gel Manicure",
+      "price": 300
+    },
+    {
+      "title": "Regular & No Gel Manicure",
+      "price": 250
+    },
+    {
+      "title": "Extentions",
+      "price": 250
+    },
+    {
+      "title": "Gel Remove",
+      "price": 250
+    },
+    {
+      "title": "Nail Art",
+      "price": 250
+    },
+    {
+      "title": "Smart Pedicure",
+      "price": 250
+    }
+  ]
+}
