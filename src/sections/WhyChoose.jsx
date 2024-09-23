@@ -43,7 +43,12 @@ const WhyChoose = () => {
           <p className="text-xl text-black underline">SUNDAY</p>
           <p className="mb-4"> 9AM-5PM</p>
         </div>
-        <button className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white">
+        <button
+          className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white"
+          onClick={() =>
+            window.open("https://brcnail.simplybook.me/v2/#book", "_blank")
+          }
+        >
           BOOK ONLINE
         </button>
       </div>
@@ -99,9 +104,6 @@ const WhyChoose = () => {
               Discover the art of European & Russian Manicure
             </h1>
           </div>
-          <button className="px-10 mt-7 py-4 items-center bg-white text-black text-md font-semibold rounded-xl hover:bg-themeyellow  hover:text-black cursor-pointer">
-            BOOK NOW
-          </button>
         </div>
       </div>
     </section>

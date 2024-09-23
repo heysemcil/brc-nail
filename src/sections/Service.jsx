@@ -6,6 +6,7 @@ import service1 from "../assets/images/ser1.png";
 import service2 from "../assets/images/ser2.png";
 import service3 from "../assets/images/ser3.png";
 import service4 from "../assets/images/ser4.png";
+import { FaLocationDot } from "react-icons/fa6";
 
 const Service = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const Service = () => {
       <div className="w-[90%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-6">
         <div id="image-box">
           <img
+          className="md:h-[500px] md:w-[500px]"
             data-aos="zoom-in"
             data-aos-delay="200"
             src={servicesimg}
@@ -49,7 +51,7 @@ const Service = () => {
             className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
           >
             <img
-              src={service1}
+              src={service4}
               alt="service1"
               className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
             />
@@ -61,7 +63,7 @@ const Service = () => {
             className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
           >
             <img
-              src={service2}
+              src={service4}
               alt="service1"
               className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
             />
@@ -73,7 +75,7 @@ const Service = () => {
             className="bg-white px-8 py-12 flex flex-col justify-center items-center gap-4 rounded-xl"
           >
             <img
-              src={service3}
+              src={service4}
               alt="service1"
               className="size-16 transform hover:scale-110 transition-transform duration-300 cursor-pointer"
             />

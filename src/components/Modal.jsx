@@ -21,7 +21,9 @@ const Modal = ({ showModal, onClose, service }) => {
             </div>
             {/*body*/}
             <div className="relative p-6 flex-auto">
-              <p className="text-center italic font-semibold">{service.subtitle}</p>
+              <p className="text-center italic font-semibold">
+                {service.subtitle}
+              </p>
               <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
                 {service.description}
               </p>
@@ -32,7 +34,12 @@ const Modal = ({ showModal, onClose, service }) => {
               <button
                 className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white"
                 type="button"
-                onClick={onClose}
+                onClick={() =>
+                  window.open(
+                    "https://brcnail.simplybook.me/v2/#book",
+                    "_blank"
+                  )
+                }
               >
                 BOOK NOW!
               </button>
