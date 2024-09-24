@@ -64,11 +64,14 @@ const Footer = () => {
           BRC Studio &copy;2024
         </span>
         <h1 className="mt-8 whitespace-nowrap overflow-hidden text-ellipsis text-[#55595E]">
-          {" "}
           Designed by @
-          <span className="text-[#DF9468] text-2xl font-serif font-semibold">
+          <a
+            target="_blank"
+            href="https://heysemcil.com"
+            className="text-[#DF9468] text-2xl font-serif font-semibold"
+          >
             Heysemcil
-          </span>{" "}
+          </a>
         </h1>
       </div>
     </>
