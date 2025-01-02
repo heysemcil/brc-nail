@@ -36,7 +36,7 @@ const Modal = ({ showModal, onClose, service }) => {
                 type="button"
                 onClick={() =>
                   window.open(
-                    "https://brcnail.simplybook.me/v2/#book",
+                    "https://brcmanicurebeautyllc.square.site/",
                     "_blank"
                   )
                 }

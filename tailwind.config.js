@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        themeyellow:'#DF9468'
+        themeyellow:'#6155B4'
       }
     },
   },

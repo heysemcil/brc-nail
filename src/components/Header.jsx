@@ -23,7 +23,7 @@ const Header = () => {
   ];
 
   return (
-    <nav className="flex justify-between items-center gap-4 bg-themeyellow lg:px-10 px-4 py-6 sticky top-0 z-30">
+    <nav className="flex justify-between items-center gap-4 bg-themeyellow lg:px-10 px-4 py-3 sticky top-0 z-30">
       <div id="logo">
         <h1 className="text-white font-bold text-5xl">
           BRC <span className="italic text-slate-900 text-2xl">Nail Studio</span>

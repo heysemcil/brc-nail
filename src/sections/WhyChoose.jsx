@@ -46,7 +46,7 @@ const WhyChoose = () => {
         <button
           className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white"
           onClick={() =>
-            window.open("https://brcnail.simplybook.me/v2/#book", "_blank")
+            window.open("https://brcmanicurebeautyllc.square.site/", "_blank")
           }
         >
           BOOK ONLINE

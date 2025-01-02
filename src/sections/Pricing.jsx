@@ -43,9 +43,13 @@ const Pricing = () => {
             className="flex justify-between items-center gap-6 border-b-2 border-themeyellow pb-10"
           >
             <h1 className="text-3xl text-gray-900 font-bold">{item.title}</h1>
-            <h1 className="text-themeyellow text-4xl font-bold">
-              ${item.price}
-            </h1>
+            <button
+              data-aos="zoom-in"
+              className="px-5 py-2 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white"
+              onClick={() => window.open("https://brcmanicurebeautyllc.square.site", "_blank")}
+            >
+              BOOK ONLINE
+            </button>
           </div>
         ))}
       </div>
