@@ -26,7 +26,7 @@ const Contact = () => {
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=100%&amp;hl=en&amp;q=330%20Riverdale%20yonkers+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://maps.google.com/maps?width=100%25&amp;height=100%&amp;hl=en&amp;q=%20Riverdale%20yonkers+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         >
           <a href="https://www.gps.ie/">gps devices</a>
         </iframe>

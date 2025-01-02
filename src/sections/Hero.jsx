@@ -35,7 +35,7 @@ const Hero = () => {
             <br />
             <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
             In Yonkers <br />
-            NEWYORK
+            NEW YORK
           </h1>
           <div
             data-aos="slide-up"
@@ -52,7 +52,7 @@ const Hero = () => {
               >
                 <FaLocationDot className="text-black size-6" />
                 <h1 className="text-xl text-gray-800 font-semibold ">
-                  330 Riverdale Avenue, 10705 Yonkers
+                  Riverdale Avenue, 10705 Yonkers
                 </h1>
               </div>
             </a>
