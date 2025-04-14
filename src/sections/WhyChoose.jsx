@@ -29,19 +29,19 @@ const WhyChoose = () => {
         </h1>
         <div className="flex flex-col justify-center items-center">
           <p className="text-xl text-black underline">MONDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">TUESDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">WEDNESDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">THURSDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">FRIDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">SATURDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
           <p className="text-xl text-black underline">SUNDAY</p>
-          <p className="mb-4"> 9AM-5PM</p>
+          <p className="mb-4"> 7AM-8PM</p>
         </div>
         <button
           className="px-10 py-4 rounded-xl border-2 border-black text-black font-semibold text-lg hover:bg-black hover:text-white"
